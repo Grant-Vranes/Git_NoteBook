@@ -50,8 +50,10 @@
 
 <hr/>
 
+书写基础来自https://blog.csdn.net/zaishuiyifangxym/category_9991200.html
+<br/>视频资料 https://www.bilibili.com/video/BV1Xx411m7kn?from=search&seid=18237457344117610617
 
-书写基础来自https://blog.csdn.net/zaishuiyifangxym/category_9991200.html专栏，侵删
+专栏，侵删
 
 <hr/>
 
@@ -288,23 +290,27 @@
 
   
 
-  #### 3、向仓库中添加文件
+#### 3、向仓库中添加文件
 
-  - 先创建文件放在`.git`的同一文件夹下，也可在命令行中使用`touch 文件名（后缀）`来创建新文件
+- 先创建文件放在`.git`的同一文件夹下，也可在命令行中使用`touch 文件名（后缀）`来创建新文件
 
-  ![image-20210205203337636](Git_NoteBook.assets/image-20210205203337636.png)
+![image-20210205203337636](Git_NoteBook.assets/image-20210205203337636.png)
 
-  ![image-20210205204211734](Git_NoteBook.assets/image-20210205204211734.png)
+![image-20210205204211734](Git_NoteBook.assets/image-20210205204211734.png)
 
-  - 接下来使用`git add 文件名`添加到**暂存区**，可以使用`git status`查看文件状态
+- 接下来使用`git add 文件名`添加到**暂存区**，可以使用`git status`查看文件状态
 
-    ![image-20210205204246694](Git_NoteBook.assets/image-20210205204246694.png)
+  ![image-20210205204246694](Git_NoteBook.assets/image-20210205204246694.png)
 
-  - 将文件从**暂存区**添加到**仓库**，使用`git commit -m '提交描述'`
+- 将文件从**暂存区**添加到**仓库**（注意：此处的仓库是git的仓库），使用`git commit -m '提交描述'`
 
-    ![image-20210205204633395](Git_NoteBook.assets/image-20210205204633395.png)
+  ![image-20210205204633395](Git_NoteBook.assets/image-20210205204633395.png)
 
-    
+- 使用`git push origin 分支名`命令或者直接用`git push`将git本地库推送到github仓库
+
+  ![image-20210217163209971](Git_NoteBook.assets/image-20210217163209971.png)
+
+
 
 #### 4、修改文件
 
